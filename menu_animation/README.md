@@ -62,6 +62,13 @@ css样式如下:
 	    background: #fff;
 	    border: 1px solid #BFBFBF;
 	}
+	.container button:focus {
+    outline-style: none;
+    background:#FAF0E6;
+	}
+	.container button:hover {
+	    background:#FAF0E6;
+	}
 ```
 # transition动画 #
 [css3 transition 动画](http://www.w3school.com.cn/css3/css3_transition.asp)
