@@ -52,5 +52,6 @@
     background:#FAF0E6;
 }
 .container button:hover {
+	outline-style: none;
     background:#FAF0E6;
 }
