@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #FFF5EE;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background: #FFE4E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 3d效果加上需要加景深 */
+    perspective: 800px;
+}
+
+/* 在前面一层的图片 */
+.front {
+    position: absolute; /* 绝对定位使两张图片叠在一起 */
+    backface-visibility: hidden;
+    transition: transform ease-in 1s;
+}
+
+/* 在背面一层的图片 */
+.reverse {
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg); /* 绝对定位后，背面一张图片会覆盖前面一层的图片，因此旋转180度将前面的图片显示出来 */
+    transition: transform ease-in 1s;    
+}
+
+.container:hover .front {
+    transform: rotateY(-180deg); /* 通过rotateY()实现前后的翻转效果*/
+}
+
+.container:hover .reverse {
+    transform: rotateY(0deg);
+}
