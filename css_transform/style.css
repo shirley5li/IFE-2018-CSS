@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #999;
+    background:	#FAF0E6;
+    margin: 40px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#box1 {
+    transform: skewX(30deg); /* 向左倾斜30度 */
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+
+}
+
+#box2 {
+    transform: scaleX(0.5); /* 压缩2倍 */
+    -ms-transform: scaleX(0.5);
+    -webkit-transform: scaleX(0.5);
+    -o-transform: scaleX(0.5);
+    -moz-transform: scaleX(0.5);
+}
+
+#box3 {
+    transform: rotate(45deg); /* 旋转45度 */
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+
+#box4 {
+    transform: translate(10px, 20px); /* x轴移动10px. y轴移动20px*/
+    -ms-transform: translate(10px, 20px);
+    -webkit-transform: translate(10px, 20px);
+    -o-transform: translate(10px, 20px);
+    -moz-transform: translate(10px, 20px);
+}
+
+#box5 {
+    transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px, 20px); /* 同时具备上述特点*/
+    -ms-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px, 20px);
+    -webkit-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px, 20px);
+    -o-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px, 20px);
+    -moz-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px, 20px);
+}
