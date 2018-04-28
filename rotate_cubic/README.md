@@ -143,3 +143,54 @@
 	}
 ```
 # [demo效果](http://shirley5li.me/IFE-2018-CSS/rotate_cubic/index.html) #
+
+# 【关于以上待解决景深问题的解答】 #
+首先，感谢 **[uni-zheng](https://github.com/uni-zheng)** 的issue，帮助我理解了关于景深设置的疑惑。重新修改了html结构和css样式。
+html结构更新如下，在立方体外面再包裹一层设置景深景深效果：
+
+``` html
+
+    <div class="container">
+        <div class="cubic-box"> <!-- 该层设置景深效果 -->
+            <div class="cubic">
+                <div class="front">front</div>
+                <div class="back">back</div>
+                <div class="left">left</div>
+                <div class="right">right</div>
+                <div class="top">top</div>
+                <div class="bottom">bottom</div>
+            </div>
+        </div>
+    </div>
+```
+css样式设置如下，这下可以加上景深效果了：
+
+``` css
+
+	.container .cubic-box {
+	    /* 景深效果 */
+	    perspective: 1000px;
+	    -moz-perspective: 1000px;
+	    -ms-perspective: 1000px;
+	    -webkit-perspective: 1000px;
+	    -moz-perspective: 1000px;
+	
+	    /* 更改下透视点的位置 */
+	    perspective-origin: 50% 50%;
+	}
+	.container .cubic {
+	    width: 500px;
+	    height: 500px;
+	    position: relative;
+	    display: flex;
+	    /* 使cubic中的6个div水平、垂直居中*/
+	    justify-content: center;
+	    align-items: center;
+	    /* 子元素保持3D效果 */
+	    transform-style: preserve-3d;
+	    -webkit-transform-style: preserve-3d;
+	    -moz-transform-style: preserve-3d;
+	    -o-transform-style: preserve-3d;
+	    -ms-transform-style: preserve-3d;
+	}
+```
