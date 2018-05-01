@@ -178,7 +178,7 @@ css布局如下：
 	    }
 	}
 	
-	/* top 50% 到 top 0 */
+	/* top -50% 到 top 0 */
 	@keyframes fromTop {
 	    0% {
 	        transform: translateY(-50%);
@@ -220,3 +220,34 @@ css布局如下：
 ```
 
 # [demo效果](http://shirley5li.me/IFE-2018-CSS/animation_slider/index.html) #
+
+# 【待解决问题】 #
+图片2即灰色猫猫的图片，要求是从`top:350px`位移到`top:0px`，但我使用以下动画形式时没有效果，图片只是抖了两下，并没有向上的移动效果，没有找到原因：
+
+``` css
+
+	/* top 350px 到 top 0 */
+	@keyframes fromTop {
+	    0% {
+	        transform: translateY(350px);
+	    }
+	    100% {
+	        transform: translateY(0px);
+	    }
+	}
+```
+但是很奇怪的是，从上向下使图片发生位移时，却有动画效果，即使用:
+
+``` css
+
+	/* top -50% 到 top 0 */
+	@keyframes fromTop {
+	    0% {
+	        transform: translateY(-50%);
+	    }
+	    100% {
+	        transform: translateY(0);
+	    }
+	}
+```
+感觉是跟之前的静态布局设置`height:100%`可能有关，但还没找到具体问题出在哪里，希望css熟练的小伙伴给与issue。
