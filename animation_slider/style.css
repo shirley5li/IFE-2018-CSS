@@ -11,7 +11,7 @@ body {
 }
 
 img {
-    position: absolute; /*使多张背景图片叠在一起*/
+    position: fixed; /*使多张背景图片叠在一起*/
     left: 0;
     top: 0;
     width: 100%; /*使每张背景图片铺满屏幕*/
@@ -116,10 +116,10 @@ img:not(:target) {
     }
 }
 
-/* top 50% 到 top 0 */
+/* top 350px 到 top 0 */
 @keyframes fromTop {
     0% {
-        transform: translateY(-50%);
+        transform: translateY(350px);
     }
     100% {
         transform: translateY(0);

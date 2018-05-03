@@ -251,3 +251,27 @@ css布局如下：
 	}
 ```
 感觉是跟之前的静态布局设置`height:100%`可能有关，但还没找到具体问题出在哪里，希望css熟练的小伙伴给与issue。
+
+# 【问题解答】 #
+再次谢谢[uni-zheng](https://github.com/uni-zheng)的issue，通过将img的绝对定位换成固定定位就可以了，改动如下：
+
+``` css
+
+	img {
+	    position: fixed; /*使多张背景图片叠在一起*/
+	    left: 0;
+	    top: 0;
+	    width: 100%; /*使每张背景图片铺满屏幕*/
+	    height: 100%;
+	}
+
+	/* top 350px 到 top 0 */
+	@keyframes fromTop {
+	    0% {
+	        transform: translateY(350px);
+	    }
+	    100% {
+	        transform: translateY(0);
+	    }
+	}
+```
