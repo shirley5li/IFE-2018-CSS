@@ -48,7 +48,7 @@
 
 # [demo效果](http://shirley5li.me/IFE-2018-CSS/css_transform/index.html) #
 
-![css 2d transform](https://githubblogbucket1-1258277786.cos.ap-shanghai.myqcloud.com/IFE-2018-CSS/css%202d%20transform.png)
+![css 2d transform](https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/IFE-2018-CSS/css%202d%20transform.png)
 
 上述box对应的transform方法为：
 

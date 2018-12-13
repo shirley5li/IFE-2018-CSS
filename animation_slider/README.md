@@ -2,7 +2,7 @@
 ## 静态布局 ##
 静态布局效果：
 
-![静态布局效果](https://githubblogbucket1-1258277786.cos.ap-shanghai.myqcloud.com/IFE-2018-CSS/animation-slider-static.png)
+![静态布局效果](https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/IFE-2018-CSS/animation-slider-static.png)
 
 其中html结构如下：
 
