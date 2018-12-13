@@ -111,7 +111,7 @@
 
 以下为CSS 3D坐标系，其中Z轴就是垂直于电脑屏幕的轴，正方向指向正在电脑面前的你，X轴就是左右，Y轴就是上下。
 
-![3D坐标系](http://ou3oh86t1.bkt.clouddn.com/IFE-2018-CSS/3D%E5%9D%90%E6%A0%87%E7%B3%BB.jpg)
+![3D坐标系](https://githubblogbucket1-1258277786.cos.ap-shanghai.myqcloud.com/IFE-2018-CSS/3D%E5%9D%90%E6%A0%87%E7%B3%BB.jpg)
 
 
 ## hover绕中轴旋转 ##

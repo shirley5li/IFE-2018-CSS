@@ -4,7 +4,7 @@
 
 静态样式布局效果如下：
 
-![menu-animation静态效果](http://ou3oh86t1.bkt.clouddn.com/IFE-2018-CSS/menu-button-static.png)
+![menu-animation静态效果](https://githubblogbucket1-1258277786.cos.ap-shanghai.myqcloud.com/IFE-2018-CSS/menu-button-static.png)
 
 html结构如下：
 

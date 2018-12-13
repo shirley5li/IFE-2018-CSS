@@ -2,17 +2,17 @@
 ## 静态布局 ##
 静态布局效果：
 
-![静态布局效果](http://ou3oh86t1.bkt.clouddn.com/IFE-2018-CSS/animation-slider-static.png)
+![静态布局效果](https://githubblogbucket1-1258277786.cos.ap-shanghai.myqcloud.com/IFE-2018-CSS/animation-slider-static.png)
 
 其中html结构如下：
 
 ``` html
 
-    <img src="http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image19.jpg" alt="" id="bg_img1">
-    <img src="http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image20.jpg" alt="" id="bg_img2">
-    <img src="http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image22.jpg" alt="" id="bg_img3">
-    <img src="http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image26.jpg" alt="" id="bg_img4">
-    <img src="http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image28.jpg" alt="" id="bg_img5">
+    <img src="https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image19.jpg" alt="" id="bg_img1">
+    <img src="https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image20.jpg" alt="" id="bg_img2">
+    <img src="https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image22.jpg" alt="" id="bg_img3">
+    <img src="https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image26.jpg" alt="" id="bg_img4">
+    <img src="https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image28.jpg" alt="" id="bg_img5">
     <div class="btns">
         <ul>
             <li><a href="#bg_img1"></a></li>
@@ -112,26 +112,26 @@ css布局如下：
 	
 	/* 给a标签设置背景图片，并设置背景图片的大小 */
 	.btns ul li:nth-child(1) a { 
-	    background-image: url(http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image19.jpg); 
+	    background-image: url(https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image19.jpg); 
 	    background-size: 200px 150px; 
 	}
 	
 	.btns ul li:nth-child(2) a { 
-	    background-image: url(http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image20.jpg); 
+	    background-image: url(https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image20.jpg); 
 	    background-size: 200px 150px; 
 	}
 	
 	.btns ul li:nth-child(3) a { 
-	    background-image: url(http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image22.jpg); 
+	    background-image: url(https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image22.jpg); 
 	    background-size: 200px 150px; 
 	}
 	
 	.btns ul li:nth-child(4) a { 
-	    background-image: url(http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image26.jpg); 
+	    background-image: url(https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image26.jpg); 
 	    background-size: 200px 150px; 
 	}
 	.btns ul li:nth-child(5) a { 
-	    background-image: url(http://ou3oh86t1.bkt.clouddn.com/demo/waterfall/images/image28.jpg); 
+	    background-image: url(https://githubrepobucket1-1258277786.cos.ap-shanghai.myqcloud.com/%E7%80%91%E5%B8%83%E6%B5%81%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/image28.jpg); 
 	    background-size: 200px 150px;  
 	}
 ```
